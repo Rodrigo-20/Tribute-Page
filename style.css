@@ -1,0 +1,54 @@
+/*@media only screen and (max-width:768px ){
+    #image{
+        width: 70%;
+    }
+
+}*/
+@media only screen and (min-width: 768px){
+    .project-tile {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+#main{
+    background-color: papayawhip;
+}
+#title{
+    font-size: 40px;
+    
+    text-align: center;
+}
+#image{
+    max-width: 100%;
+    height: auto;
+    margin:10px 0px;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+}
+#img-caption{
+    font-size: 20px;
+}
+h3{
+    font-size:30px
+}
+#tribute-info{
+    width:40%;
+    text-align: start;
+}
+#tribute-info p{
+    font-size: 20px;
+    line-height: 30px;
+}
+a{
+    color:black;
+    text-decoration-line: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+a:hover{
+    text-decoration-line: underline;
+}
